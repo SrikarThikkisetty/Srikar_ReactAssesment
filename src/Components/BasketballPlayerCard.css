@@ -1,0 +1,32 @@
+.player-card{
+  background-color: black;
+  color:white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 20px;
+  width: 300px;
+}
+.player-image{
+  width: 100%;
+  height: auto;
+}
+.player-info{
+  padding: 15px;
+}
+.player-name{
+  font-size: 1.5em;
+  margin: 0;
+}
+.player-position{
+  color: orangered;
+  margin: 5px 0;
+}
+.player-stats p {
+  margin: 5px 0;
+}
+@media(max-width:600px){
+  .player-card{
+    width:100%;
+    margin: 10px 0;
+  }
+}
